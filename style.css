@@ -25,11 +25,11 @@
     border: 1px solid black;
     color: rgb(252, 212, 153);
     text-align: center; 
-    background-image: url(pics/bgstill9.png);
+    background-image: url(bgstill9.png);
     background-size: cover;
 }
 #link1 a:hover {
-    background-image: url(pics/bgif9.gif);
+    background-image: url(bgif9.gif);
   }
 #link1:hover{
     transform: scale(1.5);
@@ -49,11 +49,11 @@
     border: 1px solid black;
     color: rgb(252, 212, 153);
     text-align: center; 
-    background-image: url(pics/bgstill8.png);
+    background-image: url(bgstill8.png);
     background-size: cover;
 }
 #link2 a:hover {
-    background-image: url(pics/bgif8.gif);
+    background-image: url(bgif8.gif);
   }
 #link2:hover{
     transform: scale(1.5);
@@ -72,11 +72,11 @@
     border: 1px solid black;
     color: rgb(252, 212, 153);
     text-align: center; 
-    background-image: url(pics/bgstill3.png);
+    background-image: url(bgstill3.png);
   background-size: cover;
 }
 #link3 a:hover {
-    background-image: url(pics/bgif3.gif);
+    background-image: url(bgif3.gif);
   }
 #link3:hover{
     transform: scale(1.5);
@@ -96,11 +96,11 @@
     border: 1px solid black;
     color: rgb(252, 212, 153);
     text-align: center; 
-    background-image: url(pics/bgstill5.png);
+    background-image: url(bgstill5.png);
     background-size: cover;
 }
 #link4 a:hover {
-    background-image: url(pics/bgif5.gif);
+    background-image: url(bgif5.gif);
   }
 #link4:hover{
     transform: scale(1.5);
@@ -119,11 +119,11 @@
     border: 1px solid black;
     color: rgb(252, 212, 153);
     text-align: center; 
-    background-image: url(pics/bgstill7.png);
+    background-image: url(bgstill7.png);
     background-size: cover;
 }
 #link5 a:hover {
-    background-image: url(pics/bgif7.gif);
+    background-image: url(bgif7.gif);
   
 }
 #link5:hover{
@@ -135,7 +135,7 @@
 
 .body{
     border-top: 5px solid rgb(247, 217, 172);
-    background-image: url(pics/bggreen2.jpeg);    
+    background-image: url(bggreen2.jpeg);    
     background-size: cover;
     min-height: 82.1vh;
     border-bottom: 5px solid rgb(247, 217, 172);
@@ -151,7 +151,7 @@ color: black;
 .highlight{
     display: inline-block;
     padding: 15px 20px;
-    background-image: url(pics/bgstill4.png);
+    background-image: url(bgstill4.png);
     background-size: cover;
     text-decoration: none;
     margin-top: 20px;
@@ -161,7 +161,7 @@ color: black;
 }
 
 .highlight:hover{
-    background-image: url(pics/bgif4.gif);
+    background-image: url(bgif4.gif);
     transform: scale(1.5);    
 
 }
