@@ -5,16 +5,17 @@
 .navbar{  
     padding: 10px;
     margin: 0;
-    list-style-type: none;
-    overflow: hidden;
+    overflow:hidden;
     background-color:#566730;
     position: relative;
+    min-height: fit-content;
     
 }
 
 #link1{
     display: block;
     float: right;
+    margin-top: 5px;
 
 }
 #link1 a{
@@ -24,16 +25,21 @@
     border: 1px solid black;
     color: rgb(252, 212, 153);
     text-align: center; 
-    background-image: url(bgstill9.png);
+    background-image: url(pics/bgstill9.png);
     background-size: cover;
 }
 #link1 a:hover {
-    background-image: url(bgif9.gif);
+    background-image: url(pics/bgif9.gif);
   }
+#link1:hover{
+    transform: scale(1.5);
+  }
+
 
   #link2{
     display: block;
     float: right;
+    margin-top: 5px;
 
 }
 #link2 a{
@@ -43,17 +49,21 @@
     border: 1px solid black;
     color: rgb(252, 212, 153);
     text-align: center; 
-    background-image: url(bgstill8.png);
+    background-image: url(pics/bgstill8.png);
     background-size: cover;
 }
 #link2 a:hover {
-    background-image: url(bgif8.gif);
+    background-image: url(pics/bgif8.gif);
   }
+#link2:hover{
+    transform: scale(1.5);
+  }
+
 
   #link3{
     display: block;
     float: right;
-
+    margin-top: 5px;
 }
 #link3 a{
     text-decoration: none;
@@ -62,17 +72,22 @@
     border: 1px solid black;
     color: rgb(252, 212, 153);
     text-align: center; 
-    background-image: url(bgstill3.png);
+    background-image: url(pics/bgstill3.png);
   background-size: cover;
 }
 #link3 a:hover {
-    background-image: url(bgif3.gif);
+    background-image: url(pics/bgif3.gif);
   }
+#link3:hover{
+    transform: scale(1.5);
+  }
+
+
 
   #link4{
     display: block;
     float: right;
-
+    margin-top: 5px;
 }
 #link4 a{
     text-decoration: none;
@@ -81,16 +96,21 @@
     border: 1px solid black;
     color: rgb(252, 212, 153);
     text-align: center; 
-    background-image: url(bgstill5.png);
+    background-image: url(pics/bgstill5.png);
     background-size: cover;
 }
 #link4 a:hover {
-    background-image: url(bgif5.gif);
+    background-image: url(pics/bgif5.gif);
   }
+#link4:hover{
+    transform: scale(1.5);
+  }
+
 
 #link5{
     display: block;
     float: right;
+    margin-top: 5px;    
 }
 #link5 a{
     text-decoration: none;
@@ -99,20 +119,26 @@
     border: 1px solid black;
     color: rgb(252, 212, 153);
     text-align: center; 
-    background-image: url(bgstill7.png);
+    background-image: url(pics/bgstill7.png);
     background-size: cover;
 }
 #link5 a:hover {
-    background-image: url(bgif7.gif);
+    background-image: url(pics/bgif7.gif);
   
+}
+#link5:hover{
+    transform: scale(1.5);
   }
+
+
+
 
 .body{
     border-top: 5px solid rgb(247, 217, 172);
-    background-image: url(bggreen2.jpeg);    
+    background-image: url(pics/bggreen2.jpeg);    
     background-size: cover;
     min-height: 82.1vh;
-    
+    border-bottom: 5px solid rgb(247, 217, 172);
     
     
 }
@@ -121,23 +147,31 @@ text-align: center;
 color: black;
 }
 
+
 .highlight{
     display: inline-block;
-    padding: 25px 30px;
-    background-image: url(bgstill4.png);
+    padding: 15px 20px;
+    background-image: url(pics/bgstill4.png);
     background-size: cover;
     text-decoration: none;
     margin-top: 20px;
    text-align: center;
-   color: rgb(252, 212, 153);;
+   color: rgb(252, 212, 153);
+
 }
-
-
-
-
-
 
 .highlight:hover{
-    background-image: url(bgif4.gif)
+    background-image: url(pics/bgif4.gif);
+    transform: scale(1.5);    
 
 }
+
+.footer {
+   
+    background-color:#566730;
+
+    color: rgb(252, 212, 153);
+    text-align: center;
+    min-height: 45px;
+
+  }
