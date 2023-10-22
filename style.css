@@ -7,8 +7,10 @@
     margin: 0;
     overflow:hidden;
     background-color:#566730;
-    position: relative;
+    position: fixed;
     min-height: fit-content;
+    width: 100%;
+    border-bottom: 5px solid rgb(247, 217, 172);
     
 }
 
@@ -32,6 +34,7 @@
     background-image: url(bgif9.gif);
   }
 #link1:hover{
+  transition-duration: 500ms;   
     transform: scale(1.5);
   }
 
@@ -56,6 +59,7 @@
     background-image: url(bgif8.gif);
   }
 #link2:hover{
+  transition-duration: 500ms;   
     transform: scale(1.5);
   }
 
@@ -76,9 +80,11 @@
   background-size: cover;
 }
 #link3 a:hover {
+    
     background-image: url(bgif3.gif);
   }
 #link3:hover{
+  transition-duration: 500ms; 
     transform: scale(1.5);
   }
 
@@ -103,6 +109,7 @@
     background-image: url(bgif5.gif);
   }
 #link4:hover{
+  transition-duration: 500ms;   
     transform: scale(1.5);
   }
 
@@ -127,6 +134,7 @@
   
 }
 #link5:hover{
+  transition-duration: 500ms;   
     transform: scale(1.5);
   }
 
@@ -137,15 +145,19 @@
     border-top: 5px solid rgb(247, 217, 172);
     background-image: url(bggreen2.jpeg);    
     background-size: cover;
-    min-height: 82.1vh;
+    min-height: 83vh;
+
     border-bottom: 5px solid rgb(247, 217, 172);
     
     
 }
-#text{
-text-align: center;
-color: black;
-}
+#textindex{
+  text-align: center;
+  color: black;
+  padding: 5%;
+  
+  }
+  
 
 
 .highlight{
@@ -157,21 +169,70 @@ color: black;
     margin-top: 20px;
    text-align: center;
    color: rgb(252, 212, 153);
+   
 
 }
 
 .highlight:hover{
-    background-image: url(bgif4.gif);
-    transform: scale(1.5);    
+    background-image: url(bgif4.gif);  
+    transition-duration: 500ms;   
+    transform: scale(1.5);   
+
 
 }
 
 .footer {
    
     background-color:#566730;
-
     color: rgb(252, 212, 153);
-    text-align: center;
-    min-height: 45px;
+   min-height: 40px;
+    
+    padding-top: 5px;
+    padding-left: 5px;
 
   }
+
+.textcontainer1{
+
+  width: 50%;
+  padding: 10px;
+ 
+
+}
+  
+#textpage2{
+  text-align: center;
+  color: black;
+  padding: 5%;
+ 
+}
+  
+  
+.container{
+  background-color: #a6ce51;
+  padding: 10px;
+  display:inline-block;
+
+}
+
+
+.highlight1{
+  
+  padding: 15px 20px;
+  background-image: url(bgstill3.png);
+  background-size: cover; 
+  background-position: 50%;
+  text-decoration: none;
+  margin-top: 20px;
+ text-align: center;
+ color: rgb(252, 212, 153);
+display: inline-block;
+
+}
+
+.highlight1:hover{
+  background-image: url(bgif3.gif);
+  transition-duration: 500ms;   
+  transform: scale(1.5);    
+
+}
