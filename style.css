@@ -88,8 +88,6 @@
     transform: scale(1.5);
   }
 
-
-
   #link4{
     display: block;
     float: right;
@@ -138,15 +136,12 @@
     transform: scale(1.5);
   }
 
-
-
-
 .body{
     border-top: 5px solid rgb(247, 217, 172);
     background-image: url(bggreen2.jpeg);    
     background-size: cover;
     min-height: 83vh;
-
+    height: inherit;
     border-bottom: 5px solid rgb(247, 217, 172);
     
     
@@ -158,8 +153,6 @@
   
   }
   
-
-
 .highlight{
     display: inline-block;
     padding: 15px 20px;
@@ -232,6 +225,27 @@ display: inline-block;
 
 .highlight1:hover{
   background-image: url(bgif3.gif);
+  transition-duration: 500ms;   
+  transform: scale(1.5);    
+
+}
+
+.highlight2{
+  
+  padding: 15px 20px;
+  background-image: url(bgstill5.png);
+  background-size: cover; 
+  background-position: 50%;
+  text-decoration: none;
+  margin-top: 20px;
+ text-align: center;
+ color: rgb(252, 212, 153);
+display: inline-block;
+
+}
+
+.highlight2:hover{
+  background-image: url(bgif5.gif);
   transition-duration: 500ms;   
   transform: scale(1.5);    
 
