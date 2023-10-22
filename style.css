@@ -250,3 +250,46 @@ display: inline-block;
   transform: scale(1.5);    
 
 }
+
+.highlight3{
+  
+  padding: 15px 20px;
+  background-image: url(bgstill7.png);
+  background-size: cover; 
+  background-position: 50%;
+  text-decoration: none;
+  margin-top: 20px;
+ text-align: center;
+ color: rgb(252, 212, 153);
+display: inline-block;
+margin-right: 25px;
+}
+
+.highlight3:hover{
+  background-image: url(bgif7.gif);
+  transition-duration: 500ms;   
+  transform: scale(1.5);    
+
+}
+
+.highlight4{
+  
+  padding: 15px 20px;
+  background-image: url(bgstill9.png);
+  background-size: cover; 
+  background-position: 50%;
+  text-decoration: none;
+  margin-top: 20px;
+ text-align: center;
+ color: rgb(252, 212, 153);
+display: inline-block;
+margin-left: 25px;
+
+}
+
+.highlight4:hover{
+  background-image: url(bgif9.gif);
+  transition-duration: 500ms;   
+  transform: scale(1.5);    
+
+}
